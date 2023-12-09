@@ -28,46 +28,63 @@
   
   @media (max-width: 768px) {
     .company-logo img {
-      max-width: 120px; /* Adjust as needed */
+      max-width: 380px; /* Adjust as needed */
     }
   }
 
   #navcolor{
-    background-color:rgb(0, 119, 255) ;
+    background-color:rgb(210, 105, 19) ;
     
   }
   #container1{
-    background-color: rgb(242, 243, 249);
+    /* background-color: azure; */
+    background-image: url('bg3.jpg');
+    width:100%;
+    height:auto;
   }
   /* Container for the text content */
   #content-container {
     float: left;
-     /* Adjust left position */
-    max-width: 50%; /* Adjust the width as needed */
-    /* background-color: white; */
-    
-    
+    max-width: 100%; 
     padding: 20px;
     border-radius: 10px;
     }
   
   /* Style for the paragraph text */
   #content-container p {
-    margin: 0;
+    
+    text-align: center;
     font-size: 1.5em;
-    
-    color: rgb(20, 19, 19); /* Adjust text color */
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: white; /* Adjust text color */
+  }
+  #content-container h3 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(1, 14, 23) ; /* Adjust text color */
   }
   
-  @media screen and (max-width: 768px) {
-  
-    .content-container p {
-      font-size: 1.2em; /* Adjust font size for smaller screens */
-    }
-  }
   .gif-image {
-    
+    border-radius: 10px;
     float: right;
     max-width: 100%; /* Ensure the GIF is responsive */
     height: auto;
   }
+  @media screen and (max-width: 768px) {
+  
+    #content-container p {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+      text-align: center;
+    }
+    #content-container h3{
+      font-size:1.5em ;
+      text-align: center;
+    }
+    .gif-image{
+      max-width: 80%;
+      align-items: center;
+    }
+  }
+  
