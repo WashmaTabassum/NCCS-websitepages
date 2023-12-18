@@ -163,7 +163,7 @@
 }
 
 h3{
-  text-align: center;
+  
     font-size: 2em;
     font-family: 'Libre Franklin', sans-serif;
     color: rgb(13, 13, 61) ; 
@@ -197,6 +197,9 @@ h3{
   
    p {
     font-size: 14px;
+  }
+  h3{
+    font-size: 24px;
   }
 }
 
@@ -265,6 +268,7 @@ h3{
 
 #contact-form{
   background-color: rgb(241, 246, 246);
+  /* padding-bottom: 80px; */
 }
 ul.list-inline {
   padding-left: 0;
@@ -276,7 +280,12 @@ ul.list-inline li {
 }
 
 ul.list-inline li a {
-  font-size: 20px;
+  font-size: 24px;
+  color:rgb(210, 105, 19);
+}
+
+ul.list-inline li a:hover{
+  color: rgb(1, 14, 23) ;
 }
 
 .card {
@@ -317,6 +326,9 @@ ul.list-inline li a {
     height:20vh;
     width:100%;
   }
+  ul.list-inline i{
+    font-size:10px;
+  }
 }
 
 .btn-secondary:hover{
@@ -332,12 +344,45 @@ ul.list-inline li a {
   background-color: rgb(210, 105, 19);
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px white;
+  box-shadow: 0 6px ;
 }
 .btn-secondary:active {
   background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 4px rgb(1, 14, 23);
   transform: translateY(4px);
 }
+#searchbtn{
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(210, 105, 19);
+  border: none;
+  border-radius: 15px;
+  
+}
+#searchbtn:hover{
+  background-color:rgb(1, 14, 23);
+}
+
+footer a:hover{
+  color: rgb(210, 105, 19);
+}
+
+.contact-content p{
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+.contact-content h3{
+  font-size: 1.2rem;
+}
+
+
 
 
