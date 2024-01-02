@@ -41,6 +41,7 @@
   #navcolor{
     background-color:rgb(210, 105, 19) ;
     
+    
   }
   /* Navbar link styles */
 .navbar-nav .nav-link {
@@ -220,7 +221,7 @@ h3{
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 10px 20px rgba(19, 19, 93, 0.5); 
-  border-top: 9px solid rgb(210, 105, 19);
+  border-bottom: 9px solid rgb(210, 105, 19);
   justify-content: center;
 }
 
@@ -401,6 +402,7 @@ footer a:hover{
 .staff:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  background-color:rgb(16, 32, 44) ;
 }
 
 .staff .img {
@@ -421,16 +423,19 @@ footer a:hover{
 .staff .info h3 {
   
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Libre Franklin', sans-serif;
+ 
 }
 
 .staff .info h3 a{
   color:rgb(210, 105, 19);
-  transform: translateY(-3px);
+  transition: transform 0.2s ease-in-out;
 }
 .staff .info h3 a:hover{
   color:whitesmoke ;
+  
+  transform: scale(1.1);
 }
 
 
@@ -462,6 +467,7 @@ footer a:hover{
 
 .staff .ftco-social a:hover {
   color:rgb(1, 14, 23) ;
+  background-color: rgb(210, 105, 19);
 }
 
 /* Responsive adjustments */
@@ -484,7 +490,7 @@ footer a:hover{
    
   }
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .staff .img {
     width: 80px;
     height: 80px;
@@ -501,5 +507,5 @@ footer a:hover{
   .staff .text p {
     font-size: 13px;
   }
-} 
+}  */
 
