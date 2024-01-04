@@ -436,8 +436,8 @@ footer a:hover{
 }
 /* faq */
 .row {
-  margin: 0; /* Remove any default margin */
-  padding: 0; /* Remove any default padding */
+  margin: 0; 
+  padding: 0; 
 }
 
 .p-container {
@@ -493,9 +493,9 @@ footer a:hover{
 .faqs {
   background-color: #fff;
 }
-.faq-main .faq-content {
-  padding-left: 50px; /* Adjust the value as needed */
-}
+/* .faq-main .faq-content {
+  padding-left: 50px; 
+} */
 .faq-content {
   width: 60%;
 }
@@ -514,11 +514,18 @@ footer a:hover{
   border-radius: 50%; /* Add border radius for a rounded look */
   margin-top: 20px;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .faq-image {
-    margin-left: auto; /* Center the image on smaller screens */
-    margin-right: auto; /* Reset the margin for smaller screens */
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px;
+    height: auto;
   }
+  .faq-content {
+    width: 100%;
+   
+  }
+  
 }
 
 .faq {
@@ -562,7 +569,7 @@ footer a:hover{
   margin-top: 5px;
 }
 .faq-main {
-  margin-left: 120px; /* Adjust the margin as needed */
+  margin-left: 20px; /* Adjust the margin as needed */
 }
 .faq-body.active {
   display: block;
