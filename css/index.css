@@ -663,6 +663,9 @@ footer a:hover{
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .staff{
+    margin-top: 20px;
+  }
   .staff .img {
     width: 80px;
     height: 80px;
