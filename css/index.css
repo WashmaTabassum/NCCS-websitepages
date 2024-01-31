@@ -6,7 +6,7 @@
   }
   
   .company-logo img {
-    max-width: 670px; /* Adjust as needed */
+    max-width: 670px; 
     height: auto;
   }
   
@@ -32,7 +32,7 @@
   
   @media (max-width: 768px) {
     .company-logo img {
-      max-width: 320px; /* Adjust as needed */
+      max-width: 320px; 
     }
     .header-icons a{
       font-size: 10px;
@@ -47,36 +47,33 @@
   /* Navbar link styles */
 .navbar-nav .nav-link {
   color: white;
-  transition: color 0.3s ease-in-out; /* Smooth color transition */
+  transition: color 0.3s ease-in-out; 
 }
 
 .navbar-nav .nav-link:hover {
-  color: rgb(27, 15, 91); /* Change color on hover */
+  color: rgb(27, 15, 91); 
 }
 
-/* Dropdown menu styles */
 .dropdown-menu {
-  background-color: rgb(210, 105, 19); /* Dropdown background color */
+  background-color: rgb(210, 105, 19); 
 }
 
 .dropdown-menu a {
   color: white;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and color */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
 }
 
 .dropdown-menu a:hover {
-  background-color: rgba(10, 10, 10, 0.2); /* Change background color on hover */
-  color: white; /* Change text color on hover */
+  background-color: rgba(10, 10, 10, 0.2); 
+  color: white;
 }
 
 /* container 1 */
   #container1{
-    
-    /* background-image: url('bg3.jpg'); */
     width:100%;
     
   }
-  /* Container for the text content */
+
   #content-container {
     float: left;
     max-width: 100%; 
@@ -91,13 +88,13 @@
     font-size: 1.5em;
     font-family: 'Nunito', sans-serif;
     font-family: 'Raleway', sans-serif;
-    color: white; /* Adjust text color */
+    color: white; 
   }
   #content-container h3 {
     text-align: center;
     font-size: 2.5em;
     font-family: 'Libre Franklin', sans-serif;
-    color: rgb(13, 13, 61) ; /* Adjust text color */
+    color: rgb(13, 13, 61) ; 
   }
   
   .gif-image {
@@ -106,8 +103,6 @@
     height: auto;
   }
 
- 
-  
   @media screen and (max-width: 768px) {
     #content-container {
       text-align: center;
@@ -133,11 +128,6 @@
       font-size: 3px;
     }
   }
-  
-  
-  
-  
-  
 
   /* Container 2*/
 #container2 {
@@ -197,8 +187,6 @@ h3{
   color: #666; /* Adjust text color */
 }
 
-
-
 /* Media query for responsiveness */
 @media (max-width: 768px) {
   .content-box {
@@ -222,7 +210,7 @@ h3{
 }
 
 /* container 3 */
-/* Bootstrap icons size and style */
+
 #container3{
   background-color: rgb(241, 246, 246);
 }
@@ -327,12 +315,8 @@ footer {
 }
 
 .social-links a:hover {
-  color:rgb(255, 255, 255);  /* Change the color on hover */
+  color:rgb(255, 255, 255);  
 }
-/* footer*/
-
-
-
 
 /* contact form css */
 #contact-form{
@@ -382,12 +366,12 @@ ul.list-inline li a:hover{
 }
 
 #contactpic {
-  width: 100%; /* Occupy full width of the viewport */
-  height: 50vh; /* Set height as full viewport height */
-  background-image: url('bg2.jpg'); /* Replace 'path/to/your-image.jpg' with the actual path to your image */
-  background-size: cover; /* Ensure the image covers the entire container */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent image from repeating */
+  width: 100%; 
+  height: 50vh; 
+  background-image: url('bg2.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 @media (max-width: 768px) {
@@ -399,7 +383,7 @@ ul.list-inline li a:hover{
     font-size:10px;
   }
 }
-/* yuoipopo[ */
+
 .btn-secondary:hover{
   background-color:rgb(1, 14, 23);
 }
@@ -473,19 +457,10 @@ footer a:hover{
   text-align: center;
 }
 
-/* .bg {
-  background: #f8f8f8;
-} */
-
 /* Section Title styles */
 .section-title {
   margin-bottom: 0px;
 }
-
-/* .section-title h2 {
-  color: rgb(210, 105, 19);
-  
-} */
 
 .section-title p {
   font-size: 18px;
@@ -509,16 +484,14 @@ footer a:hover{
 /* FAQ styles */
 .faq-main {
   display: flex;
-  margin-top: 50px; /* Adjust the value as needed */
+  margin-top: 50px; 
 
 }
-/* Add this CSS to your existing styles */
+
 .faqs {
   background-color: #fff;
 }
-/* .faq-main .faq-content {
-  padding-left: 50px; 
-} */
+
 .faq-content {
   width: 60%;
 }
@@ -527,14 +500,14 @@ footer a:hover{
   width:100%;
   overflow: hidden;
   border-radius: 50%;
-  text-align: center; /* Center the image */
-  margin-right:40px; /* Adjust the left margin to move it right */
+  text-align: center; 
+  margin-right:40px; 
 
 }
 
 .faq-image img {
-  width: 100%; /* Adjust the width as needed */
-  border-radius: 50%; /* Add border radius for a rounded look */
+  width: 100%; 
+  border-radius: 50%; 
   margin-top: 20px;
 }
 @media (max-width: 768px) {
@@ -561,8 +534,6 @@ footer a:hover{
     width: 100%;
   }
 }
-
-
 .faq {
   margin-bottom: 15px;
   cursor: pointer;
@@ -604,7 +575,7 @@ footer a:hover{
   margin-top: 5px;
 }
 .faq-main {
-  margin-left: 20px; /* Adjust the margin as needed */
+  margin-left: 20px; 
 }
 .faq-body.active {
   display: block;
@@ -664,8 +635,6 @@ footer a:hover{
   transform: scale(1.1);
 }
 
-
-
 .staff .position {
   font-size: 14px;
   color: #777;
@@ -696,7 +665,6 @@ footer a:hover{
   background-color: rgb(210, 105, 19);
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .staff{
     margin-top: 20px;
@@ -718,34 +686,15 @@ footer a:hover{
     font-size: 13px;
    
   }
+  .ftco-animate{
+    margin-bottom: 10px;
+  }
 }
-/* @media (max-width: 768px) {
-  .staff .img {
-    width: 80px;
-    height: 80px;
-  }
-
-  .staff .info h3 {
-    font-size: 16px;
-  }
-
-  .staff .position {
-    font-size: 12px;
-  }
-
-  .staff .text p {
-    font-size: 13px;
-  }
-}  */
 
 #proj_cont4{
   background-color: rgb(241, 246, 246);
 }
 .projects_card{
-  /* background-color: whitesmoke;
-  border: 2px solid  rgb(210, 105, 19);
-  color: #ced4da; */
-  /* background: rgb(1, 14, 23); */
   background-color: whitesmoke;
   border-top: rgb(210, 105, 19);
   padding: 20px;
@@ -778,9 +727,7 @@ footer a:hover{
 }
 
 .projects_card:hover{
-  /* background-color:  rgb(228, 225, 225);
-  /* border: 2px solid rgb(210, 105, 19) ; */
-  /* color: #666;  */
+
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
   background-color:rgb(16, 32, 44) ;
@@ -790,23 +737,23 @@ footer a:hover{
 .underline {
   text-decoration: none;
   position: relative;
-  display: inline; /* This will make the underline only as wide as the text */
+  display: inline; 
 }
 
 .underline:after {
   content: '';
   position: absolute;
-  width: 50%; /* Adjust this value to control the width of the line */
-  height: 3px; /* Thickness of the line */
+  width: 50%; 
+  height: 3px; 
   bottom: -5px;
-  left: 25%; /* Adjust left to 25% if width is 50% to center the line */
-  background-color: rgb(210, 105, 19); /* The color of the underline */
-  transition: width 0.3s ease, left 0.3s ease; /* Optional: for a smooth transition on hover */
+  left: 25%; 
+  background-color: rgb(210, 105, 19); 
+  transition: width 0.3s ease, left 0.3s ease; 
 }
 
 .underline:hover:after {
-  width: 100%; /* Optional: underline width on hover */
-  left: 0; /* Optional: reset left on hover */
+  width: 100%; 
+  left: 0; 
 }
 
 /* Media Query for Small Screens */
@@ -844,9 +791,9 @@ footer a:hover{
 .line-with-image::before,
 .line-with-image::after {
   content: '';
-  background: #ccc; /* Change color as needed */
-  height: 1px; /* Adjust thickness here */
-  width: 50%; /* Adjust the width of the lines */
+  background: #ccc; 
+  height: 1px; 
+  width: 50%; 
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -862,9 +809,8 @@ footer a:hover{
 
 .line-with-image img {
   position: relative;
-  z-index: 1; /* To ensure the image is over the lines */
-  background: white; /* Adjust the background as needed */
-  padding: 0 10px; /* For the background to overlap the lines a bit */
+  z-index: 1; 
+  background: white; 
+  padding: 0 10px; 
 }
 
-/* animation */
