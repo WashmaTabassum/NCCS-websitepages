@@ -814,3 +814,83 @@ footer a:hover{
   padding: 0 10px; 
 }
 
+/* memoona */
+/* publications page */
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+  
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: rgb(215, 210, 210);
+    text-align: center;
+}
+
+td{
+  font-size: 18px;
+  color: #666;
+  line-height: 1.4;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+/* past events page */
+.about
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 94px;
+	padding-bottom: 111px;
+}
+.about_row:not(:last-child)
+{
+	margin-bottom: 99px;
+}
+/* .about_content
+{
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+} */
+.about_image
+{
+	width: 90%;
+}
+.about_image img
+{
+	max-width: 90%;
+}
+
+.about_text p
+{
+	/* margin-top: 61px; washma*/
+	font-size: 19px;
+  color: #666;
+  line-height: 1.5;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  
+}
