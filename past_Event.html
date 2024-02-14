@@ -17,11 +17,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&display=swap" rel="stylesheet"> 
 <!-- bootstrap icons -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-<!-- js links -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
-<!-- Bootstrap JS bundle (includes Popper.js) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <link rel="stylesheet" href="css/index.css">
+
+<style>
+  
+</style>
 </head>
 <body >
 <!-- header section -->
@@ -33,7 +34,9 @@
           <div class="company-logo">
             <img src="img/header.png" alt="Company Logo">
           </div>
-      
+          <!-- <div class="company-name">
+            <h1>Company Name</h1>
+          </div> -->
         </div>
       </div>
       <div class="col-md-6">
@@ -50,8 +53,9 @@
     </div>
   </div>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark border-bottom  border-3  mt-2" id="navcolor">
+  <nav class="navbar navbar-expand-lg navbar-dark  mt-2" id="navcolor">
     <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Home</a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -65,9 +69,12 @@
               Research
             </a>
             <ul class="dropdown-menu" aria-labelledby="researchDropdown">
-              <li><a class="dropdown-item" href="fundedResearchProjects.html">Funded Research Projects</a></li>
-              <li><a class="dropdown-item" href="Publications.html">Publications</a></li>
-            </ul>
+              <li><a class="dropdown-item" href="fundedResearchProjects.html" target="_blank">Funded Research Projects</a></li>
+
+              <li><a class="dropdown-item" href="Publications.html" target="_blank">Publications HTML</a></li>
+          </ul>
+          
+            
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Security Testing Lab Overview</a>
@@ -90,7 +97,7 @@
               <li><a class="dropdown-item" href="#">Seminars</a></li>
               <li><a class="dropdown-item" href="#">Upcoming Conferences</a></li>
               <li><a class="dropdown-item" href="#">Upcoming Training Events and Workshops</a></li>
-              <li><a class="dropdown-item" href="past_Event.html">Past Events</a></li>
+              <li><a class="dropdown-item" href="#">Past Events</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -131,126 +138,92 @@
       </div>
     </div>
   </nav>
+  
 </header>
-
-<!-- container 1 -->
-<div class="container-fluid pb-5 mb-0" id="contact-form">
-  <div class="row justify-content-center mb-5 pb-3">
-    <div class="col-md-7 heading-section ftco-animate text-center">
-      <h2 class="mb-4 text-center display-6 fw-bold pt-4 lg-pb-2 lg-mb-5 sm-pb-5">Contact Us</h2>
-      <p class="fw-bold">We welcome your inquiries and feedback. Feel free to reach out to us at NCCS; our team is here to assist you promptly and effectively with any questions or concerns you may have.</p>
-    </div>
-  </div>
-  <div class="container contact-content justify-content-center" >
-    <div class="row">
-      <div class="col-md-6 mb-4 lg-pt-5 sm-py-3 lg-px-5 sm-px-2">
-        <h3 class="px-5 py-2">Our Address</h3>
-        <p class="px-5">Main Road University Town<br>Peshawar, Pakistan, 25688</p>
-        <h3 class="px-5 py-2">Contact Details</h3>
-        <p class="px-5">Email: onlinelibrary@gmail.com<br>Phone: +678789808</p>
-        <h3 class="px-5 py-2">Follow Us</h3>
-        <ul class="list-inline px-5">
-          <li class="list-inline-item mr-2"><a href="https://facebook.com/nccsuetp" target="_blank"><i class="fab fa-facebook" aria-hidden="true" title="facebook"></i></i></a></li>
-          <li class="list-inline-item mr-2"><a href="https://www.linkedin.com/company/national-center-for-cyber-security-uetp/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true" title="linkedin"></i></a></li>
-          <li class="list-inline-item"><a href="#" onclick="alert('Tel: +92-91-9216590 | Mob: +92-320-9733968' );"><i class="fas fa-phone" aria-hidden="true"
-            title="Tel: +92-91-9216590 | Mob: +92-320-9733968"></i></a></li>
-        <li><a href="mailto:nccs%40uetpeshawar.edu.pk" target="_blank"><i class="far fa-envelope" aria-hidden="true" title="nccs@uetpeshawar.edu.pk"></i></a></li>
-        </ul>
-      </div>
-
-    
-      <div class="col-md-6">
-        <div class="card p-4 lg-me-5 sm-me-0 lg-mt-3 sm-mt-0 ">
-          <h3 class="mb-4 ">Send us a Message</h3>
-          <form id="contactForm">
-            <div class="form-group">
-              <input type="text" class="form-control my-1" placeholder="Name" required>
+<h2 class=" text-center fw-bold display-5 mt-5 lg-mb-0 sm-pb-5">Past Events</h2>
+<div class="about">
+  
+    <div class="container">
+      
+        <div class="row about_row row-lg-eq-height">
+            <div class="col-lg-6">
+                <div class="about_content">
+                    <div class="about_title"><h2 class="">Cyber Security main goal</h2></div>
+                    <div class="about_text">
+                  <p>Cyber Security is about the protection of Individuals and Organizations from Cyber Attacks. Cyberspace is a fifth generation warfare domain and has recently attracted attention of many developed and developing countries. The reports of government websites being hacked and sensitive data being stolen by foreign groups are not new anymore. Effective cyber-attacks not only can compromise personal user information but can also cripple entire nation’s infrastructure.</p>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-              <input type="email" class="form-control my-1" placeholder="Email" required>
+            <div class="col-lg-6">
+                <div class="about_image"><img src="img/mona99.jpeg" alt="https://unsplash.com/@jtylernix"></div>
             </div>
-            <div class="form-group">
-              <textarea class="form-control my-2" rows="5" placeholder="Message" required></textarea>
-            </div>
-            <center> <button type="submit" class="btn btn-block mt-3" id="searchbtn">Submit</button></center>
-          </form>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--q/a-->
-<div class="container-fluid">
-  <div class="line-with-image">
-    <img src="img/faq.png" style="width: 150px; height: auto;" alt="Centered Image">
-  </div>
-  </div>   
-<section class="faqs section">
-  <div class="p-container">
-    <div class="row">
-      <div class="col-lg-6 offset-lg-3 col-12">
-        <div class="section-title bg text-center px-5">
-          <h2>Frequently Asked <span>Questions</span></h2>
-          <p>Got questions? Check our FAQs, or unlock hidden secrets - they're only one click away!
-
-          </p>
-          <div class="icon" style="color: rgb(210, 105, 19);"><i class="fa fa-question"></i></div>
+        <div class="row about_row row-lg-eq-height">
+            <div class="col-lg-6 order-lg-1 order-2">
+                <div class="about_image"><img src="img/mem.jpg" alt=""></div>
+            </div>
+            <div class="col-lg-6 order-lg-2 order-1">
+                <div class="about_content">
+                    <div class ="about_title"><h2 >Nccs Project</h2></div>
+                    <div class="about_text">
+                        <p>The NCCS Project is mainly focused on Research & Development (R&D) and human resource development in the specialized field of Cyber Security and its practical applications, which are important components of Vision 2025. The role of Cyber Security is growing in many businesses and applications, and is becoming vital for economic growth and national competitiveness. The idea is to provide a platform for boosting Cyber Security related R&D to have strong footings in international Cyber Security industry, reduce skill gap, and make Pakistan self-sustainable in this domain.</p>
+                    </div>
+                </div>
+               
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-<div class="container">
-    <div class="row">
-      <div class="col-lg-8  col-12">
-        <div class=" faq-main">
-          <div class="faq-content">
-            <div class="faq" onclick="toggleAnswer(1)">
-              <h4 class="faq-title">
-                <i class="fa fa-question"></i>who can apply for these courses?
-              </h4>
-              <hr>
-              <div class="faq-body">students related to any field they can apply.</div>
-            </div>
-
-            <div class="faq" onclick="toggleAnswer(2)">
-              <h4 class="faq-title">
-                <i class="fa fa-question"></i>what is the age limit?
-              </h4>
-              <hr>
-              <div class="faq-body">From age 18 to 30.</div>
-            </div>
-
-            <div class="faq" onclick="toggleAnswer(3)">
-              <h4 class="faq-title">
-                <i class="fa fa-question"></i> we apply for more than one course?
-              </h4>
-              <hr>
-              <div class="faq-body">yes a candidate can apply for maximum of 3 courses.</div>
-            </div>
-
-            <div class="faq" onclick="toggleAnswer(4)">
-              <h4 class="faq-title">
-                <i class="fa fa-question"></i>Do a candidate need any prior skill?
-              </h4>
-              <hr>
-              <div class="faq-body">If a candidate has some skills or prior knowledge its plus point else its ok if he/she has no prior skill.</div>
-            </div>
-
+        <div class="container">
+          <div class="row about_row row-lg-eq-height">
+              <div class="col-lg-6">
+                  <div class="about_content">
+                      <div class="about_title"><h2 >National Centre for Cyber Security</h2></div>
+                      
+                      <div class="about_text">
+                      <p>The establishment of National Centre for Cyber Security (NCCS) has been commenced by Government of Pakistan in June 2018. The NCCS project is a joint initiative of Higher Education Commission (HEC) and Planning Commission.After meticulous scrutiny in two rounds of evaluation, technical proposals from 11 universities of Pakistan were shortlisted. These universities were given the mandate to establish NCCS affiliated Labs in different specialized areas of cyber security under the secretariat of centre.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <div class="about_image"><img src="img/mem1.jpg" alt="https://unsplash.com/@jtylernix"></div>
+          </div>
           </div>
         </div>
-        
-      </div>
-
-      <div class="col-lg-3 col-12">
-        <div class="faq-image">
-          <img src="img/qs.png" alt="FAQ Image">
-        </div>
-      </div>
     </div>
+</div>
 
+  
+  
+<!-- footer -->
+<!-- <footer class="container-fluid" style="background-color: rgb(1, 14, 23);">
+
+  <div class="container-fluid">
+      <div class="row px-5">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-3 my-3">
+              <img src="img/LOGO.jpg" alt="" height="90px" width="80px"  style="border-radius: 50%;"/>
+          </div>
+          <div class="col-sm-3 my-3">
+              <img src="img/nccslogo.png" alt="" height="90px" width="80px" style="border-radius: 50%;"/>
+          </div>
+          <div class="col-sm-3 my-3">
+              <img src="img/logo3.png" alt="" height="90px" width="80px" style="border-radius: 50%;" />
+          </div>
+
+      </div>
+      <br />
+      <center>
+        
+        <p>&copy; 2023 Innovative Secured Systems Lab - UET Peshawar, All Rights Reserved &nbsp;  &nbsp; |&nbsp; &nbsp;</i></a> &nbsp;<a href="https://facebook.com/nccsuetp" target="_blank"><i class="fab fa-facebook" aria-hidden="true" title="facebook"></i></i></a>
+          <a href="https://www.linkedin.com/company/national-center-for-cyber-security-uetp/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true" title="linkedin"></i></a>  <a href="index.html" target="_blank" onclick="alert('2nd Floor, New Academic Block, UET Peshawar, Pakistan');"><i class="fas fa-home" aria-hidden="true"
+          title="2nd Floor, New Academic Block, UET Peshawar, Pakistan"></i></a>
+        <a href="#" onclick="alert('Tel: +92-91-9216590 | Mob: +92-320-9733968' );"><i class="fas fa-phone" aria-hidden="true"
+          title="Tel: +92-91-9216590 | Mob: +92-320-9733968"></i></a>
+        <a href="mailto:nccs%40uetpeshawar.edu.pk" target="_blank"><i class="far fa-envelope" aria-hidden="true" title="nccs@uetpeshawar.edu.pk"></i></a> </p>
+      </center>
+      
   </div>
-</section>
+</footer> -->
+
 
 <!-- footer -->
 <footer class="pt-2">
@@ -267,14 +240,17 @@
   <p>&copy; Copyright 2023 Innovative Secured Systems Lab - UET Peshawar, Pakistan.</p>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script>
-$(document).ready(function () {
-// Toggle FAQ answer visibility
-$('.faq').click(function () {
-  $(this).find('.faq-body').toggleClass('active');
-});
-});
-</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<!-- Bootstrap JS bundle (includes Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
+
+
+
+
